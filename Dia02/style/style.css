@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.spinner{
+   
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    animation: spin 0.8s infinite;
+    margin-top: 40px;
+    box-shadow: 0 4px 0 #262626;
+}
+
+.oposite{
+    animation: spin2 0.8s infinite;
+}
+
+.text{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: 'Rochester', cursive,sans-serif;
+    font-size: 40px;
+}
+
+@keyframes spin{
+    to {transform: rotate(-360deg);}
+}
+
+@keyframes spin2{
+    to {transform: rotate(360deg);}
+}
