@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh; /*Alinhamento vertical - viewport height - % da tela*/
+    display: flex; /*Centraliza*/
+    align-items: center; /*Alinhamento vertical*/
+    justify-content: center; /*Alinhamento horizontal*/
+}
+
+ul{
+    display: flex; /*Deixa os itens da lista ha horizontal*/
+    list-style: none; /*Remove os bullets da lista*/
+}
+
+ul li{
+    width: 70px;
+    height: 70px;
+    margin: 0 30px; /*Define o espaço entre os itens*/
+    transform: rotate(-30deg) skew(30deg) /*Rotaciona o item - rotate e "deita" ele - skew*/
+}
+
+ul li span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    color: #fff; /*Cor dos icons*/
+    transition: 0.5s;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li:hover span{
+    box-shadow: -1px 1px rgba(0,0,0,.1); /*Efeito ao passar o mouse*/
+    background: #dd4b39;
+}
+
+/*ntn-child: "Sobe" os icones*/
+ul li:hover span:nth-child(5){
+    transform: translate(40px, -40px);
+    opacity: 1;
+}
+
+ul li:hover span:nth-child(4){
+    transform: translate(30px, -30px);
+    opacity: 0.8;
+}
+
+ul li:hover span:nth-child(3){
+    transform: translate(20px, -20px);
+    opacity: 0.6;
+}
+
+ul li:hover span:nth-child(2){
+    transform: translate(10px, -10px);
+    opacity: 0.4;
+}
+
+ul li:hover span:nth-child(1){
+    transform: translate(0,0);
+    opacity: 0.2;
+}
+
+
+
+
+
