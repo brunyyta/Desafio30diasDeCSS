@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    background: #FA8072;
+    box-sizing: border-box;
+    overflow: hidden; /**O que fica de fora da caixa fica escondido**/
+    position: absolute;
+}
+
+.wrapper{
+    height: 100%;
+    width: 50%;
+    background: #FFA07A;
+    overflow: hidden;
+    color: #FA8072;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 2px solid;
+}
+
+.sliding{
+    position: absolute;
+    top: 50%;
+    white-space: nowrap;
+    font-size: 12em;
+    line-height: 220px;
+    overflow: hidden;
+    font-family: 'Rochester', cursive,sans-serif;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: translate(0,-50%);
+    }
+
+    100%{
+        transform: translate(-50%,-50%);
+    }
+}
