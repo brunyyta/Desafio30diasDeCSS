@@ -1,0 +1,58 @@
+
+body{
+    background: #E0FFFF;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn{
+    width: 200px;
+    height: 60px;
+    background: none;
+    border: 4px solid;
+    color: pink;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    font-family: 'Berkshire Swash', cursive, sans-serif;
+    font-size: 20px;
+}
+
+#btn::before, #btn::after{
+    content:"";
+    position: absolute;
+    width: 14px;
+    height: 4px;
+    background: #E0FFFF;
+    transform: skewX(50deg);
+    transition: .4s linear;
+}
+
+#btn::before{
+    top:-4px;
+    left: 10%;
+}
+
+#btn::after{
+    bottom: -4px;
+    right: 10%;
+}
+
+#btn:hover::before{
+    left: 80%;
+}
+
+#btn:hover::after{
+    right:80%;
+}
+
+
+
+
+
+
+
+
