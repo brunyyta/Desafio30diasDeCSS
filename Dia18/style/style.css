@@ -52,3 +52,7 @@ ul li:nth-child(5) {
 	transition-delay: 1.6s;
 }
 
+ul li:nth-child(6) {
+	transition-delay: 1.7s;
+}
+
