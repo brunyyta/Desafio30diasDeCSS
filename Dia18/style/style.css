@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Harry Potter';
+    src: url(../font/HARRP___.TTF);
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+ul{
+   font-family: 'Harry Potter';
+   font-size: 100px;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+li{
+    list-style: none;
+    transition: 2s; 
+
+}
+
+ul:hover li {
+	transform: rotate(45deg) translateY(-200px);
+	opacity: 0;
+	filter: blur(20px);
+}
+
+ul li:nth-child(1) {
+	transition-delay: 0;
+}
+
+ul li:nth-child(2) {
+	transition-delay: 0.4s;
+}
+
+ul li:nth-child(3) {
+	transition-delay: 0.8s;
+}
+
+ul li:nth-child(4) {
+	transition-delay: 1.2s;
+}
+
+ul li:nth-child(5) {
+	transition-delay: 1.6s;
+}
+
