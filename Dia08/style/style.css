@@ -1,0 +1,18 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.heart{
+    font-size: 200px;
+    color: pink;
+
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes beat{
+    to {transform: scale(1.2); }
+}
