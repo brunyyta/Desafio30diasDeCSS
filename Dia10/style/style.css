@@ -1,0 +1,24 @@
+*{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 50px;
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+span::before{
+    content: '';
+    animation: word-swith 3s infinite;
+}
+
+@keyframes word-swith{
+    0% {content: '💻';}
+
+    50%{content: '🍕';}
+
+    100%{content: '🎮';}
+}
