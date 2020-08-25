@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+}
+
+button{
+    border: 2px solid rgb(0, 165, 124);
+    background: none;
+    color: rgb(0, 165, 124);
+    padding: 20px 40px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover{
+    color: white;
+}
+
+button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 165, 124);
+    z-index: -1;
+    border-radius: 0 0 50% 50%;
+    height: 0%;
+    transition: all 0.5s;
+}
+
+button:hover::before{
+    height: 190%;
+}
