@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+h1{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 80px;
+    color: #008B8B;
+}
+
+h1::before{
+    content: "#30DiasDeCSS";
+    position: absolute;
+    color: #FA8072;
+    overflow: hidden;
+    width: 0%;
+    transition: all 1s;
+}
+
+h1:hover::before{
+    width: 100%;
+}
