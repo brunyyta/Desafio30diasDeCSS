@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+}
+
+h1{
+    font-size: 100px;
+    text-align:center;
+    background: url(../img/pink-math-function-1170075-640x480.jpg);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: text-background 20s linear infinite;
+}
+
+@keyframes text-background{
+    from { background-position: 0 0 }
+
+	to { background-position: 100% 100% }
+}
