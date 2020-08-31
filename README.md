@@ -43,7 +43,10 @@ Link do desafio: <https://github.com/MilenaCarecho/30diasDeCSS>
   ![](https://github.com/brunyyta/Desafio30diasDeCSS/blob/master/Dia13/Dia13.gif)  
   
   ## Desafio Dia 14
-  ![](https://github.com/brunyyta/Desafio30diasDeCSS/blob/master/Dia14/Dia14.gif)
+  ![](https://github.com/brunyyta/Desafio30diasDeCSS/blob/master/Dia14/Dia14.gif)  
+  
+  ## Desafio Dias 15, 16 e 17
+  ![](https://github.com/brunyyta/Desafio30diasDeCSS/blob/master/Dia15%2C16%2C17/Dia15%2C16%2C17.gif)
   
   ## Desafio Dia 18
   ![](https://github.com/brunyyta/Desafio30diasDeCSS/blob/master/Dia18/Dia18.gif)
