@@ -11,15 +11,16 @@ a{
     font-size: 40px;
     border: 3px solid black;
     padding: 30px 70px;
-    transition: all 0.1s;
+    transition: all 0.3s;
     position:relative;
     overflow: hidden;
     background-color: #222;
+    color:white;
 }
 
 a:hover{
     background-color:#000000;
-    color:white;
+    color: white;
 }
 
 a:before{
@@ -31,7 +32,7 @@ a:before{
     height: 100%;
     transform: translateX(-100%) rotate(45deg);
     position: absolute;
-    transition: all 0.1s;
+    transition: all 0.3s;
 }
 
 a:hover:before{
