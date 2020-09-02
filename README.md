@@ -54,6 +54,9 @@ Link do desafio: <https://github.com/MilenaCarecho/30diasDeCSS>
   ## Desafio Dia 19 
   ![](https://github.com/brunyyta/Desafio30diasDeCSS/blob/master/Dia19/Dia19.gif)
   
+  ## Desafio Dia 20
+  ![](https://github.com/brunyyta/Desafio30diasDeCSS/blob/master/Dia20/Dia20.gif)
+  
   
   
   
