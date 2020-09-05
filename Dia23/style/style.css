@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+h1{
+    border: 2px solid black;
+    padding: 30px;
+}
+
+h1:hover{
+    color: pink;
+    border: 2px solid pink;
+    cursor: pointer;
+    animation: shake 0.3s linear 1;
+}
+
+@keyframes shake{
+    33%{
+        transform: rotate(10deg);
+    }
+    66%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}
