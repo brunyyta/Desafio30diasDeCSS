@@ -1,0 +1,178 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+
+.column1{
+    justify-content:center;
+    align-items: center;
+    display:flex;
+    height: 100vh;
+    width:48vw;
+    position: relative;
+    background-color: black;
+    float: left;
+}
+
+.container{
+    animation: animate 1s linear infinite;
+    transform: rotate(45deg);
+}
+
+.container span{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    animation: rotate 1s linear infinite;
+}
+
+.container span:nth-child(1){
+    top:0;
+    left:0;
+    background-color: #fceba7;
+}
+
+.container span:nth-child(2){
+    top:0;
+    right:0;
+    background-color: #55ddb9;
+}
+
+.container span:nth-child(3){
+    bottom:0;
+    left:0;
+    background-color: #1f78b0;
+}
+
+.container span:nth-child(4){
+    bottom:0;
+    right:0;
+    background-color: #fd6c64;
+}
+
+.column2{
+    background-color: purple;
+    justify-content:center;
+    align-items: center;
+    display:flex;
+    height: 100vh;
+    width:49vw;
+    position: relative;
+    float: right;
+    box-sizing: border-box;
+}
+
+.column2 ul{
+    list-style:none;
+    position: relative;
+}
+
+.column2 ul li label{
+    position: relative;
+}
+
+.column2 ul li label input[type="checkbox"]{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.column2 ul li .icon{
+    position: relative;
+    width: 60px;
+    height:60px;
+    font-size: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -1px -1px 4px rgba(255,255,255,0.05)
+                4px 4px 6px rgba(0,0,0,0.02)
+                inset -1px -1px 4px rgba(255,255,255,0.05)
+                inset 1px 1px 1px rgba(0,0,0,0.01);
+}
+
+.column2 ul li label .icon:before{
+    content:"";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 5px);
+    height: calc(50% -2px);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: rgba(255,255,255,0.05);
+}
+
+.column2 ul li label input[type="checkbox"]:checked ~ .icon{
+    box-shadow: inset 0px 0px 2px rgba(255,255,255,0.05)
+    inset 4px 4px 6px rgba(0,0,0,0.02);
+}
+
+.column2 ul li label input[type="checkbox"]:checked ~ .icon .fa
+{
+    color: #00f3ff;
+    text-shadow: 0 0 15 px #00f3ff,
+                 0 0 25 px #00f3ff;
+    animation: animate2 5s linear infinite;
+}
+
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    90%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes animate{
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+
+    10%{
+        width: 100px;
+        height: 100px;
+    }
+
+    50%{
+        width: 150px;
+        height: 150px;
+    }
+
+    90%{
+        width: 100px;
+        height: 100px;
+    }
+
+    100%{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@keyframes animate2
+{
+    0%
+    {
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
