@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    animation: bgchange 2s infinite;
+}
+
+h1{
+    font-family:verdana,sans-serif;
+    font-size: 70px;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+
+@keyframes bgchange{
+    0%{background-color: #C71585;}
+    20%{background-color: #FF1493;}
+    40%{background-color: #FF69B4;}
+    60%{background-color: #DB7093;}
+    80%{background-color: #FFB6C1;}
+    100%{background-color: #FFC0CB;}
+}
+
