@@ -73,7 +73,10 @@ Link do desafio: <https://github.com/MilenaCarecho/30diasDeCSS>
   ![](https://github.com/brunyyta/Desafio30diasDeCSS/blob/master/Dia26/Dia26.gif)  
   
   ## Desafio Dia 27
-  ![](https://github.com/brunyyta/Desafio30diasDeCSS/blob/master/Dia27/Dia27.gif)
+  ![](https://github.com/brunyyta/Desafio30diasDeCSS/blob/master/Dia27/Dia27.gif)  
+  
+  ## Desafio Dia 28
+  ![](https://github.com/brunyyta/Desafio30diasDeCSS/blob/master/Dia28/Dia28.gif)
   
   
   
