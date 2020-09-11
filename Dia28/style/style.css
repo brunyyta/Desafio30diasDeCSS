@@ -6,7 +6,7 @@ body{
     animation: bgchange 9s infinite;
 }
 
-h1{
+span{
     font-family:verdana,sans-serif;
     font-size: 70px;
     text-transform: capitalize;
@@ -14,7 +14,7 @@ h1{
     color: white;
 }
 
-h1:before{
+span:before{
     content:"";
     animation: textchange 9s infinite;
 }
