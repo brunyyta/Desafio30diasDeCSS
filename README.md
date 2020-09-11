@@ -78,5 +78,8 @@ Link do desafio: <https://github.com/MilenaCarecho/30diasDeCSS>
   ## Desafio Dia 28
   ![](https://github.com/brunyyta/Desafio30diasDeCSS/blob/master/Dia28/Dia28.gif)
   
+  ## Desafio Dia 29
+  ![](https://github.com/brunyyta/Desafio30diasDeCSS/blob/master/Dia29/Dia29.gif)
+  
   
   
